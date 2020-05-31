@@ -53,4 +53,19 @@
     navbarCollapse();
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
+
+    //------------------------------------------- TEAM
+    $('.teamAll').hide(); 
+    var team = false; 
+    $( "#teamBtn" ).click(function() {
+        if(team){
+            team = false;
+            $('.teamAll').show(); 
+        }else{
+            team = true;
+            $('.teamAll').hide(); 
+        }
+    });
+   
 })(jQuery); // End of use strict
+
