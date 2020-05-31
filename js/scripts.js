@@ -56,7 +56,7 @@
 
     //------------------------------------------- TEAM
     $('.teamAll').hide(); 
-    var team = false; 
+    var team = true; 
     $( "#teamBtn" ).click(function() {
         if(team){
             team = false;
